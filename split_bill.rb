@@ -8,5 +8,9 @@
 # If value is a decimal, round to two decimal places.
 
 def split_the_bill(x)
-
+  puts "#{x['A']}"
 end
+
+bill = {'A'=>20, 'B'=>15, 'C'=>10}
+
+split_the_bill(bill)
